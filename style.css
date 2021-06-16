@@ -160,3 +160,88 @@ nav ul li a{
 #tres p{
     color: #000;
 }
+
+/* section-video */
+
+#section-video{
+    padding-top: 90px;
+    text-align: center;
+}
+#section-video .contenedor{
+    position: relative;    
+}
+.contenedor .botones{
+    position: absolute;
+    top: 43%;
+    left: 46%;
+}
+#section-video img{
+    font-size: 125px;
+    color :#fff;
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+}
+#section-video img:hover{
+    background-color:rgba(255,255,255,0.50);
+    border-radius: 56%;
+}
+#section-video button{
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+/* JOIN */
+
+#join{
+    display: flex;
+    padding-top:200px;
+}
+
+#join .izquierda{
+    width: 49%;
+    background-color:#fa2a20;
+    margin-left: 100px;
+    height: 340px;
+    position: relative;
+}
+#join img{
+    width: 47%;
+}
+#join .derecha{
+    width: 53%;
+    position: relative;
+    background: url(join-back.jpg);
+    background-size: cover;
+}
+#join .izquierda a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 8%;
+    left: 32%;
+}
+#join #uno{
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    width: 44%;
+    z-index: 1;
+}
+#join #dos{
+    position:absolute;
+    top: -44px;
+}
+#join #tres{
+    position: absolute;
+    left: 47%;
+    top: 24%;
+    width: 44%;
+}
