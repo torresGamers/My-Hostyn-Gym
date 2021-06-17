@@ -65,7 +65,7 @@ nav ul li a{
     font-weight: 100;
     letter-spacing: 23px;
 }
-#intro a , #programs a{
+#intro a , #programs a, #testimonials a{
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -244,4 +244,57 @@ nav ul li a{
     left: 47%;
     top: 24%;
     width: 44%;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    padding-top: 90px;
+    text-align: center;
+}
+span.comillas{
+    font-size: 120px;
+    color: red;
+}
+
+#testimonials h2{
+    font-size: 63px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin: 0;
+    margin-bottom:36px;
+    font-family:sans-serif
+}
+.contenedor-testimonials{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+.testimonial{
+    width: 40%;
+    margin-right: 40px;
+}
+.testimonial .contenido{
+    display: flex;
+}
+.foto{
+    background: url(testimonial.jpg);
+    background-size: cover;
+    width: 447px;
+    height: 85px;
+    border-radius: 100%;
+    margin-top: 22px;
+    background-position:center;
+}
+.testimonial p{
+    color: #666;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+p.nombre{
+    margin-left: 125px;
+    font-weight: bold;
 }
