@@ -382,3 +382,128 @@ p.nombre{
     letter-spacing: 5px;
 
 }
+@media  screen and (max-width:800px) {
+    nav {
+        position: absolute;
+        top: 13%;
+        left: 0;
+        width: 100%;
+        background: #000;
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 17px;
+    }
+    nav ul li a{
+        color :#fff;
+    }
+    #intro .izquierda p{
+        letter-spacing: 2px;
+    }
+    #intro h1{
+        font-size: 26px;
+        letter-spacing: 20px;
+    }
+    #intro a{
+        letter-spacing: 4px;
+        padding: 5px 5px 13px 3px;
+        font-size: 16px;
+        display: block;
+        margin-top: 55px;
+    }
+    #programs .ini{
+        letter-spacing: 11px;
+    }
+    #programs h2{
+        font-size: 26px;
+        margin-top: 30px;
+        margin-bottom: 7px;
+    }
+    #programs a{
+        margin-top: 36px;
+        margin-bottom: 10px;
+
+    }
+    .contenedor-programs{
+        display: block;
+    }
+    #programs #uno{
+        margin-bottom: -82px;
+    }
+    #programs #dos{
+        margin-bottom: 120px;
+    }
+    video#video {
+        width: 100%;        
+        margin-top: -252px;
+        margin-bottom: -220px;
+
+    }
+    .contenedor .botones {
+        position: absolute;
+        top: 3%;
+        left: 40%;
+    }
+    #join .izquierda{
+        margin-left: 0px;
+    }
+    #join img {
+        width: 80%;
+    }
+    #join #uno{
+        top: 28%;
+        left: 29%;
+        width: 71%;
+    }
+    #join #tres{
+        left: 30%;
+        top: 60%;
+        width: 70%;
+    }
+    #testimonials a{
+        font-size: 15px;
+        letter-spacing:  5px;
+    }
+    #testimonials h2{
+        font-size: 21px;
+    }
+    .contenedor-testimonials {
+        display: block;
+    }
+    .testimonial .contenido {
+        display: block;
+    }
+    .testimonial{
+        width: 100%;
+    }
+    .foto{
+        width: 97px;
+        margin-left: 107px;
+    }
+    .testimonial p{
+        margin-left: 10px;
+        line-height: 20px;
+        /* font-size: 10px; */
+    }
+    #contacto{
+        display: block;
+
+    }
+    #contacto h2{
+        letter-spacing: 15px;
+    }
+    #contacto .izquierda {
+        padding: 20px;
+        width: 89%;
+    }
+    #contacto .izquierda p {
+        font-size: 14px;
+        letter-spacing: 7px;
+    }
+    #contacto .derecha{
+        width: 60%;
+        margin-top: 57px;
+    }
+
+}
