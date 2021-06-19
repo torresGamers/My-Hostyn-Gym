@@ -17,6 +17,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.menu .contenedor img{
+    display: none;
+}
 .logo{
     color: #000;
     font-size: 23px;
@@ -524,6 +527,37 @@ p.nombre{
     }
     #contacto .derecha .pass h3{
         font-size: 16px;
+    }
+    .menu .contenedor img{
+        display: block;
+    }
+    #menu-logo{
+        background-color: rgba(0,0,0,0.40);
+        left: -28px;
+        width: 39%;
+    }
+    nav ul li a {
+        color: blue;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    nav ul li:hover{
+        background-color: rgba(0,0,0,0.80);
+    }
+    #intro{
+        display: block;
+    }
+    #intro .contenido {
+        background: red;
+        padding: 1px 8px 16px 20px;
+       
+    }
+    #intro .derecha {
+        width: 80%;
+        background-image:none;
+    }
+    #programs{
+        padding-top: 40px;
     }
 
 }
